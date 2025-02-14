@@ -2272,14 +2272,14 @@ span.services__bottom-text {
   }
 
   .modal__close-wrapper {
-    top: 20px;
-    right: 10px;
+    top: 25px;
+    right: 20px;
   }
 
   .modal__body {
     padding: 10px;
     height: 550px;
-    width: 75%;
+    width: 85%;
   }
 
   .modal__politics-text {
