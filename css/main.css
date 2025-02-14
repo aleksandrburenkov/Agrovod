@@ -1377,7 +1377,7 @@ span.services__bottom-text {
   right: 0;
   width: 135px;
   height: 72px;
-  background-image: url(/public_html/images/logo.png);
+  background-image: url(../images/logo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
