@@ -80,7 +80,7 @@ html::-webkit-scrollbar-button,
   position: relative;
   width: 30px;
   height: 3px;
-  background-color: var(--green);
+  background-color: var(--blue);
   border-radius: 50px;
 }
 
@@ -95,7 +95,7 @@ html::-webkit-scrollbar-button,
   left: 0;
   width: 30px;
   height: 3px;
-  background-color: var(--green);
+  background-color: var(--blue);
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   border-radius: 50px;
 }
@@ -113,7 +113,7 @@ html::-webkit-scrollbar-button,
   left: 0;
   width: 30px;
   height: 3px;
-  background-color: var(--green);
+  background-color: var(--blue);
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   border-radius: 50px;
   z-index: 20;
@@ -1377,7 +1377,7 @@ span.services__bottom-text {
   right: 0;
   width: 135px;
   height: 72px;
-  background-image: url(../images/logo.png);
+  background-image: url(/public_html/images/logo.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1980,7 +1980,8 @@ span.services__bottom-text {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(28, 33, 69);
+    background: linear-gradient(133deg, #064156 10%, #194405 100%);
+    /* background: rgb(28, 33, 69); */
     z-index: 150;
     animation: headers-bottom .4s linear;
 
