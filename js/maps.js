@@ -67,10 +67,12 @@ ymaps.ready(function () {
 
 const mapTitle = document.createElement('div');
 const before = document.createElement('div');
-mapTitle.className = 'work__map-title';
 before.className = 'work__map-before';
-mapTitle.textContent = 'Для активации карты нажмите по ней';
-map.appendChild(mapTitle);
+if (window.matchMedia('(min-width: 900px)').matches) {
+    mapTitle.className = 'work__map-title';
+    mapTitle.textContent = 'Для активации карты нажмите по ней';
+    map.appendChild(mapTitle);
+}
 map.appendChild(before);
 before.addEventListener('click', (e) => {
     if (e.target) {
